@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<?php include 'menubar.php';?>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/login_style.css"> <!-- login style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+
+</head>
+
+<body
+
+
+
+<div class="login">
+	<br><br><h1>Login</h1><br>
+    <form action="checklogin.php" method="post">
+    	<input type="text" name="username" id="" placeholder="Username" required="required" />
+        <input type="password" name="password" id="" placeholder="Password" required="required" />
+        <input type="submit" class="btn btn-primary btn-block btn-large" value="Login">
+    </form>
+</div>
+<br>
+<div align="center">
+    <a href="index.php?url=register">สมัครสมาชิก</a>
+</div>
+
+</body>

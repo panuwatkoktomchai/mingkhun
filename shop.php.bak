@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<?php include 'index.php';?>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Mingkhun</title>
+</head>
+<body>
+	
+
+	<main class="cd-main-content">
+		<nav class="cd-side-nav">
+			<ul>
+				<li class="cd-label">สินค้า</li>
+
+				<li class="has-children comments">
+					<a href="#0">สินค้ามาใหม่  <b>New!!</b></a>
+				</li>
+
+				<li class="has-children comments">
+					<a href="#0">สินค้าขายดี <b>Hot!!</b></a>
+				</li>
+
+				<li class="has-children comments">
+				<a href="#">กีต้าร์ Guitar</a>
+					<ul>
+						<li><a href="#0">กีต้าร์ไฟฟ้า <br>Eletric Guitar</a></li>
+						<li><a href="#0">กีต้าร์เบส<br> Eletric Bass</a></li>
+						<li><a href="#0">กีต้าร์โปร่ง <br>Acoustic Guitar</a></li>
+						<li><a href="#0">กีต้าร์คลาสสิค <br>Classic Guitar</a></li> 
+						<li><a href="#0">อะคูเลเล่ <br>Ukulele</a></li> 
+					</ul>
+				</li>
+
+				<li class="has-children comments">
+				<a href="#">กลอง Drum</a>
+					<ul>
+						<li><a href="#0">กลองชุด <br>Acoustic Drum</a></li>
+						<li><a href="#0">กลองไฟฟ้า <br>Electronic Drum</a></li> 
+						<li><a href="#0">อุปกรณ์กลอง<br> Drum Accessories</a></li> 
+						<li><a href="#0">เครื่องให้จังหวะ <br>Percussion</a></li> 
+					</ul>
+				</li>
+
+				<li class="has-children comments">
+				<a href="#">เอฟเฟค Effect</a>
+					<ul>
+						<li><a href="#0">เอฟเฟคกีตาร์โปร่ง <br>Acoustic Guitar Effect</a></li>
+						<li><a href="#0">เอฟเฟคกีตาร์ไฟฟ้า <br> Electric Guitar Effect</a></li> 
+						<li><a href="#0">เอฟเฟคเบส <br> Bass Effect</a></li> 
+						<li><a href="#0">เครื่องให้จังหวะ <br>Percussion</a></li> 
+					</ul>
+				</li>
+
+				<li class="has-children comments">
+				<a href="#">แอมป์ Amplifiers</a>
+					<ul>
+						<li><a href="#0">แอมป็กีตาร์โปร่ง <br>Acoustic Guitar Amp</a></li>
+						<li><a href="#0">แอมป็กีตาร์ไฟฟ้า <br>Electric Guitar Amp</a></li>
+						<li><a href="#0">แอมป์เบส <br> Bass Amp</a></li> 
+						<li><a href="#0">แอมป็กลองไฟฟ้า <br>Electric Drum Amp</a></li>
+						
+					</ul>
+				</li>
+
+					<li class="has-children comments">
+				<a href="#">เครื่องดนตรีไทย</a>
+					<ul>
+						<li><a href="#0">เครื่องดีด <br></a></li>
+						<li><a href="#0">เครื่องสี<br></a></li>
+						<li><a href="#0">เครื่องตี <br></a></li>
+						<li><a href="#0">เครื่องเป่า <br></a></li> 
+					
+					</ul>
+				</li>
+
+
+				<li class="has-children comments">
+					<a href="#0">เปียโนไฟฟ้า Digital Piano </a>
+				</li>
+
+				<li class="has-children comments">
+					<a href="#0">คียบอรด์ Keyboard</a>
+				</li>
+
+				<li class="has-children comments">
+					<a href="#0">อะไหล่เครื่องดนตรี </a>
+				</li>
+
+				<li class="has-children comments">
+					<a href="#0">อุปกรณ์อื่นๆ Accessories</a>
+				</li>
+
+			</ul>
+
+			<ul>
+				<li class="cd-label">Secondary</li>
+				<li class="has-children bookmarks">
+					<a href="#0">Bookmarks</a>
+					
+					<ul>
+						<li><a href="#0">All Bookmarks</a></li>
+						<li><a href="#0">Edit Bookmark</a></li>
+						<li><a href="#0">Import Bookmark</a></li>
+					</ul>
+				</li>
+				<li class="has-children images">
+					<a href="#0">Images</a>
+					
+					<ul>
+						<li><a href="#0">All Images</a></li>
+						<li><a href="#0">Edit Image</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children users">
+					<a href="#0">Users</a>
+					
+					<ul>
+						<li><a href="#0">All Users</a></li>
+						<li><a href="#0">Edit User</a></li>
+						<li><a href="#0">Add User</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="cd-label">Action</li>
+				<li class="action-btn"><a href="#0">+ Button</a></li>
+			</ul>
+		</nav>
+
+		<div class="content-wrapper">
+			<h1>Responsive Sidebar Navigation</h1>
+		</div> <!-- .content-wrapper -->
+	</main> <!-- .cd-main-content -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.menu-aim.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

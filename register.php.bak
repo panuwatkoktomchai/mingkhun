@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<?php include 'menubar.php';?>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/login_style.css"> <!-- login style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+
+</head>
+
+<body
+
+
+
+<div class="login"><form action="check-register.php" method="post">
+    <label for="">ชื่อ - นามสกกุล</label>
+    <input type="text" class="form-control"  name="fullname" id="">
+    <label for="">อีเมล</label>
+    <input type="email" class="form-control"  name="email" id="">
+    <label for="">เพศ</label>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="gender">ชาย
+    </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="gender">หญิง
+    </label>
+    </div>
+    
+    <label for="">อายุ</label>
+    <input type="number" name="age" class="form-control">
+    <label for="">เบอร์โทรศัพท์</label>
+    <input type="tel" name="" id="" name="tel" class="form-control">
+
+    <div class="form-group">
+    <label for="address">ที่อยู่</label>
+    <textarea class="form-control" id="address" rows="3" name="address"></textarea>
+    
+    <br><br>
+    <div class="form-group">
+        <label for="user">User </label>
+        <input type="text" class="form-control" id="user" name="user" placeholder="Enter user name">
+    </div>
+    <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" class="form-control" name="pass" id="pass" placeholder="Password">
+    </div>
+    <div class="form-group">
+        <label for="confirm">Confirm password</label>
+        <input type="password" class="form-control" id="confirm" name="confirmpass" placeholder="Confirm password">
+    </div>
+
+    <input type="submit" value="ลงทะเบียน">
+  </div>
+</form>
+</div>
+
+</body>

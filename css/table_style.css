@@ -1,0 +1,119 @@
+.table-my-collaborations{
+    padding-right: 5px;
+    padding-left: 5px;
+  
+    .table{
+      border: solid 1px #ededed;
+      border-radius: 4px;
+  
+      th{
+        font-size: 12px;
+        color: green;
+        font-weight: bold;
+        padding: 20px 0px 20px 20px;
+        border-bottom: 0px;
+      }
+  
+      
+      .border-line{
+      width: 100%;
+      border-bottom: 2px solid red;
+      }
+  
+      td{
+        padding: 20px 0px 20px 20px;
+      }
+  
+      .td-user{
+        display: flex;
+  
+        .information{
+          display: block;
+          margin-left: 13px;
+  
+          &.name-collab{
+            font-size: 16px;
+            line-height: 1.13;
+            font-weight: bold;
+            margin-bottom: 2px;
+          }
+          &.id-collab{
+            font-size: 12px;
+            line-height: 1.3;
+            color: grey;
+          }
+        }
+      }
+  
+      .td-icon{
+        padding-left: 35px;
+      }
+  
+      .td-ruolo{
+            color: grey;
+            font-size: 12px;
+      }
+  
+      .td-punteggio{
+            color: grey;
+            font-size: 12px;
+        text-align: right;
+        padding-right: 12px;
+      }
+  
+      .td-stato{
+            color: grey;
+            font-size: 12px;
+        font-style: italic;
+      }
+  
+      .td-btn{
+        padding-right: 20px;
+      }
+  
+      .td-link{
+        padding-right: 20px;
+        text-align: right;
+  
+        a{
+          margin-top: 0;
+          color:green;
+          font-weight:bold;
+        }
+      }
+  
+      .btn-custom-list{
+        background: transparent;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        color:green;
+      
+        i{
+          font-size: 16px;
+          margin-left: 3px;
+        }
+      }
+  
+      .user-pic{
+        height: 40px;
+      }
+  
+      .btn-table{
+        height: 40px;
+        width: 151px;
+        padding: 10px;
+        color:white;
+        font-size: 12px;
+        background: green;
+        font-weight:bold;
+      }
+  
+      
+    }
+  }
+  .icon-Icon_Risky:before {
+      content: "";
+      color: #258900;
+  }
